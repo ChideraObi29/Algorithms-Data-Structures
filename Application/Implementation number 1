@@ -22,3 +22,61 @@ Once clicked the output would be something like this.
 Example: "T-101 — from Waterloo Station — arrived at 08:45".
 
 Finally I would create an exit option.
+
+THIS IS THE CODE THAT I MADE AS A STARTER FOR THE FINAL APP 
+import time
+
+#App title
+print("--- Train App ---")
+
+#Exiting the app
+def Exit_event():
+    print("Bye")
+
+#Showing Departures of Waterloo
+def Waterloo_time_show():
+    print("*Showing leaving trains and time*")
+    print()
+    Home()
+
+def Euston_time_show():
+    print("*Showing leaving trains and time*")
+    print()
+    Home()
+
+#For when the user picks the option for "Departures"
+def Departure_scene():
+    print()
+    print("1. Waterloo")
+    print("2. Euston")
+    user_selecting_station = float(input("Select station: "))
+    if user_selecting_station ==1:
+        Waterloo_time_show()
+    elif user_selecting_station ==2:
+        Euston_time_show()
+
+#Home options
+def Home():
+    print("1. View departures")
+    print("2. View arrivals")
+    print("3. View clock")
+    print("4. Exit App")
+    user_selecting_menu = float(input("Choose an option: "))
+    if user_selecting_menu ==1:
+        Departure_scene()
+    elif user_selecting_menu ==2:
+        print("Arrival system would show all the arrivals")
+        print()
+        Home()
+    elif user_selecting_menu ==3:
+        print("The current time would be displayed here")
+        print()
+        Home()
+    elif user_selecting_menu ==4:
+        Exit_event()
+
+    else:
+        print("Invalid Number")
+        print()
+        Home()
+Home()
