@@ -1,36 +1,22 @@
 When the app is lunched, the user would see the app title.
 
 In Menu 3 Options
-
 "1. View departures"
 "2. View arrivals"
 "3. View clock"
 
 Now the user can type a number.
-
 if 1 is chosen, new options would display.
 
 "Select station:"
-
 1. Waterloo
 2. Euston
 
 Again the user can pick an option.
 
-Example: Selects 1
-Example: "T-101 leaves at 08:00. Arrives at Euston Station at 08:45."
+Example: User selects 1.
+Example of future output, once I finalise the system: "T-101 leaves at 08:00. Arrives at Euston Station at 08:45."
 
-The same concept would be utilised for the arrivals option
-
-"Select station:"
-
-1. Waterloo
-2. Euston
-
-User picks one option.
-
-Example: Selects 2
-Example: "T-101 — from Waterloo Station — arrived at 08:45"
-
-or if there are no arrivals 
-Example: "No arrivals at this time."
+The same concept would be utilised for the arrivals options.
+Once clicked the output would be something like this.
+Example: "T-101 — from Waterloo Station — arrived at 08:45".
