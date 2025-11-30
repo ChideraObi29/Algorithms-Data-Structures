@@ -12,7 +12,7 @@ However, this prints the date as well so I rewrote the code so that it only prin
 import time
 print(time.strftime("%H:%M:%S"))
 
-Now I have created I basic schedule system using AI, the target time is can be used to display the arrivals of trains.
+Now I have created I basic schedule system using AI on a different python file.  The target time can be used to display the arrivals of trains.
 
 import time
 from datetime import datetime
