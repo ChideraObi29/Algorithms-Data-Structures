@@ -36,13 +36,12 @@ while True:
 
 I then created a basic schedule system for a train station. It uses lists.
 - THE CODE -
-import time
-from datetime import datetime
 
 Waterloo_trains = ["T1","T2","T3"]
-Waterloo_Schedule_Trains = ["17:00, arriving at 17:10 in Euston","18:00"]
+Waterloo_Schedule_Trains = ["00:00, arriving at 00:10 in Euston","00:10, arriving at 00:20 in Euston"]
 
 print("1. Waterloo Station")
 user_selecting_station = float(input("Select station: "))
 if user_selecting_station == 1:
     print(Waterloo_trains[0], "Leaving at", Waterloo_Schedule_Trains[0])
+    print(Waterloo_trains[1], "Leaving at", Waterloo_Schedule_Trains[1])
