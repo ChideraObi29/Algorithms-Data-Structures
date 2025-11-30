@@ -1,6 +1,7 @@
 I have created a code that displays the current date and time on a seperate python file and then added the code on
 the main app file.
 
+- THE CODE -
 #Displaying date and time
 import datetime
 
@@ -12,8 +13,11 @@ However, this prints the date as well so I rewrote the code so that it only prin
 import time
 print(time.strftime("%H:%M:%S"))
 
-Now I have created I basic schedule system using AI on a different python file.  The target time can be used to display the arrivals of trains.
+------------------------------------------------------------------------------------------------------------------------------
 
+Now I have created I basic system using AI on a different python file. I would use this as an arrivals system for my app.
+
+- THE CODE -
 import time
 from datetime import datetime
 
@@ -27,3 +31,18 @@ while True:
         time.sleep(60)   
 
     time.sleep(1)
+
+------------------------------------------------------------------------------------------------------------------------------
+
+I then created a basic schedule system for a train station. It uses lists.
+- THE CODE -
+import time
+from datetime import datetime
+
+Waterloo_trains = ["T1","T2","T3"]
+Waterloo_Schedule_Trains = ["17:00, arriving at 17:10 in Euston","18:00"]
+
+print("1. Waterloo Station")
+user_selecting_station = float(input("Select station: "))
+if user_selecting_station == 1:
+    print(Waterloo_trains[0], "Leaving at", Waterloo_Schedule_Trains[0])
