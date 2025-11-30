@@ -7,7 +7,23 @@ import datetime
 current_time=datetime.datetime.now()
 print(current_time)
 
-However, this prints the date as well so I rewrote the code so that it prints only the time.
+However, this prints the date as well so I rewrote the code so that it only prints he time.
 
 import time
 print(time.strftime("%H:%M:%S"))
+
+Now I have created I basic schedule system using AI, the target time is can be used to display the arrivals of trains.
+
+import time
+from datetime import datetime
+
+TARGET_TIME = "16:27"   #Schedule example
+
+while True:
+    now = datetime.now().strftime("%H:%M")
+
+    if now == TARGET_TIME:
+        print("Prints arrivals of trains")
+        time.sleep(60)   
+
+    time.sleep(1)
