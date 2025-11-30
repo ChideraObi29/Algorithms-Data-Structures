@@ -21,7 +21,7 @@ Now I have created I basic system using AI on a different python file. I would u
 import time
 from datetime import datetime
 
-TARGET_TIME = "16:27"   #Schedule example
+TARGET_TIME = "16:27"   #Arrival target time example
 
 while True:
     now = datetime.now().strftime("%H:%M")
