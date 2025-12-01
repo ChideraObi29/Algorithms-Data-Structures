@@ -1,1 +1,29 @@
+I have created a simple schedule list that has stations and each of them have their own schedule for trains to leave or arrive.
+However, using this method I would have to manually add all the schedules, which would result into having many lines of code for
+each station added. 
 
+- THE CODE - 
+Waterloo_schedule = [
+    ("06:00","Train1","Euston","06:10"),
+    ("06:10","Train2","Euston","00:20") 
+]
+
+for leave, train, destination, arrive in Waterloo_schedule:
+    print(leave,train,"--->",destination,arrive)
+#----------------------------------------------------------
+
+Euston_schedule = [
+    ("00:15","Train1","King's Cross","00:18")
+]
+
+for leave, train, destination, arrive in Euston_schedule:
+    print(leave,train,"--->",destination,arrive)
+#------------------------------------------------------------
+
+KingsCross_schedule = [
+    ("00:23","Train1","Euston","00:26")
+]
+
+for leave, train, destination, arrive in KingsCross_schedule:
+    print(leave,train,"--->",destination,arrive)
+#------------------------------------------------------
