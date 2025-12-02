@@ -27,3 +27,7 @@ KingsCross_schedule = [
 for leave, train, destination, arrive in KingsCross_schedule:
     print(leave,train,"--->",destination,arrive)
 #------------------------------------------------------
+
+I decided to change the code to basic print functions that would print all the shcedules on the requested station, 
+showing the station's schedule.
+I have done this by creating a new python file named "departures", and then linked this to my main.py using the import code.
