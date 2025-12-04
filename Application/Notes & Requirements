@@ -1,4 +1,4 @@
-I am going to simulate: Waterloo, Euston, King's Cross, Paddington, Victoria, Baker Street, Oxford Circus, and Tottenham Court Road for my app.
+I am going to simulate: Waterloo, Euston, King's Cross, Paddington and Victoria for my app.
 
 These are some of the events that the simulation could handle. Arrival, departure, delays and passenger queues. 
 
@@ -11,6 +11,7 @@ For trains
 - Schedule between stations
 - A system that simulates a train departures and arrivals 
 
+Extra things
 The app currently works on the terminal, once the basics are done, I would create an interface for the app.
 
 Buttons 
