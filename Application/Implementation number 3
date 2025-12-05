@@ -27,5 +27,3 @@ KingsCross_schedule = [
 for leave, train, destination, arrive in KingsCross_schedule:
     print(leave,train,"--->",destination,arrive)
 #------------------------------------------------------
-
-I decided to change the app mechanics by implementing stacks and queues.
